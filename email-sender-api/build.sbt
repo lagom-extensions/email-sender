@@ -1,0 +1,1 @@
+name := "email-sender-api"

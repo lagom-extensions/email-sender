@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  mailhog:
+    image: mailhog/mailhog:v1.0.0
+    ports:
+      - "2525:1025"
+      - "1080:8025"
